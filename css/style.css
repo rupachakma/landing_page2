@@ -13,6 +13,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 80px;
     font-size: 17px;
     
@@ -26,11 +27,9 @@
 }
 .nav-link{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     gap: 40px;
     list-style: none;
-    -webkit-box-align: center;
+  
  
 }
 .nav-item{
@@ -90,11 +89,11 @@ svg{
     background-color: rgb(211, 222, 218);
 }
 
-
 .card1-img{
     width: 300px;
     height:200px;
 }
+
 .card-t{
     font-size: 15px;
     padding: 5px 15px;
@@ -107,6 +106,7 @@ svg{
     width: 300px;
     background-color: rgb(211, 222, 218);
 }
+
 .card2-img{
     width: 300px;
     height:200px;
@@ -120,6 +120,7 @@ svg{
     width: 300px;
     background-color: rgb(211, 222, 218);
 }
+
 .card3-img{
     width: 300px;
     height:200px;
@@ -127,11 +128,18 @@ svg{
 
 .start-section{
     display: flex;
+    justify-content: center;
     color: white;
     margin: 20px 75px 0;
     height: 8rem;
     background-color: rgb(205, 59, 59);
     border-radius: 10px;
+}
+.start-section-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .sign-sec-t{
     
@@ -150,72 +158,38 @@ svg{
     height: 15rem;
     background-color: rgb(64, 26, 26);
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
-.footer-img{
-    height: 30px;
-    width: 60px;
-    margin: 30px 80px; 
-}
-.img-address{
-    width: 20rem;
-    height: 70px;
-}
-address {
-   color: rgb(185, 174, 161);
-   padding:0 40px;
-   font-size: 13px;
-}
-.home{
-    font-size: 14px;
-    list-style: none;
-    width: 15rem;
-    height: 70px;
-    margin: 30px 40px;
-}
-.title-home{
-    margin-bottom: 30px;
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.footer-link{
+    padding: 0 20px;
+    list-style: none;
 }
 .footer-list{
     cursor: pointer;
     color: white;
     text-decoration: none;
 }
-.help{
-    font-size: 14px;
-    list-style: none;
-    width: 15rem;
-    height: 70px;
-    margin: 30px 40px;
-}
-.title-help{
-    margin-bottom: 30px;
-}
-.help-list{
+.icon-wrapper{
     cursor: pointer;
     color: white;
-    text-decoration: none;
 }
-.follow{
-    font-size: 14px;
-    width: 15rem;
-    height: 70px;
-    margin: 30px 40px;
-}
-.title-follow{
-    margin-bottom: 30px;
-}
-.icon-wrapper{
-    font-size: 23px;
-    color: white;
+.icon{
+    margin-bottom: 75px;
 }
 .copyright{
-    height: 30px;
     background-color: rgb(24, 23, 23);
     color: white;
 }
 .copy-wrapper{
-    margin-left: 50rem;
+    margin-left: 45rem;
     font-size: 12px;
 }
